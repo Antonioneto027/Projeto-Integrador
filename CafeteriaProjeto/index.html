@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorKoffee</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CafeteriaProjeto/css/style.css">
+    <link rel="icon" href="img/fav/favicon.png" type="image/x-icon">
+
+    <style>
+        .parallax {
+            background-image: url('img/parallax/1.png');
+            min-height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <section id="mybackground">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light rounded sticky-top">
+                <div class="container containeredit">
+                    <div class="logo">
+                        <img src="img/logo.png" height="150" alt="Logo do Workoffee" width="150px" class="img-fluid">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="../CafeteriaProjeto/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="../Login/index.html">Cardápio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="../Login/index.html">Login</a>
+                            </li>
+                          
+                        </ul>
+                    </div>
+            
+                </div>
+            </nav>
+        </header>
+ 
+        
+        <div class="carousel slide" id="carouselZoom" data-bs-ride="carousel" >
+            <ol class="carousel-indicators d-none">
+                <li data-bs-target="#carouselZoom" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselZoom" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselZoom" data-bs-slide-to="2"></li>
+            </ol>
+        
+            <div class="carousel-inner carousel-container">
+                <div class="carousel-item active d-flex align-item-center">
+                    <div class="carousel-text-container">
+                        <h1 class="carousel-title">Bem Vindo ao Workoffee</h1>
+                        <p class="carousel-subtitle">O seu espaço para café e trabalho!</p>
+                    </div>
+                    <img src="img/carrossel/1.png" class=" caroulsel-img d-block w-100 img-carousel img-fluid" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-text-container">
+                        <h1 class="carousel-title">A Workoffee possui os melhores sabores!</h1>
+                        <p class="carousel-subtitle">E o melhor ambiente de trabalho!</p>
+                    </div>
+                    <img src="img/carrossel/2.png" class="d-block w-100 img-carousel" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-text-container">
+                        <h1 class="carouselTitle2">Venha nos fazer uma visita!</h1>
+                    </div>
+                    <img src="img/carrossel/3.png" class="d-block w-100 img-carousel" alt="Slide 3">
+                </div>
+            </div>
+        
+            <a class="carousel-control-prev" href="#carouselZoom" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselZoom" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
+        
+        
+        <div class="container cards-container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card h-100 card-sombra">
+                        <img src="img/cards/interior.png" class="card-img-top" alt="Interior da Workoffee"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Inspiração e Produtividade</h5>
+                            <p class="card-text">
+                                Descubra o lugar onde a criatividade flui e as ideias ganham vida. Nosso espaço foi projetado para inspirar e motivar, combinando harmoniosamente o estilo industrial moderno com a sensação acolhedora de estar em casa. Desfrute da abundante luz natural, das plantas que purificam o ar e da comunidade de pensadores inovadores, tornando o coworking uma experiência única.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-sombra">
+                        <img src="img/cards/fachada.png" class="card-img-top" alt="Fachada da Workoffee"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Seu Novo Endereço Profissional</h5>
+                            <p class="card-text">Bem-vindo ao epicentro da inovação e do empreendedorismo. Localizado no coração do Bairro Bela Vista, o nosso espaço oferece uma fachada convidativa e uma localização estratégica, ideal para conectar-se com clientes e colaboradores. Estabeleça sua presença no mercado com um endereço que diz sucesso.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-sombra">
+                        <img src="../CafeteriaProjeto/img/inicio2.jpeg" class="card-img-top" alt="Uma pessoa coando café"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Feito com Amor e Carinho</h5>
+                            <p class="card-text">Em nossa cafeteria e espaço de coworking, cada xícara é preparada com carinho e dedicação, oferecendo uma experiência acolhedora e única a todos os nossos clientes e membros da comunidade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-sombra">
+                        <img src="../CafeteriaProjeto/img/Inicio1.png" class="card-img-top" alt="Uma foto de um lanche e cappuccino com a cafeteria ao fundo"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Acompanhamentos e Cappuccinos Especiais</h5>
+                            <p class="card-text">Desfrute de nossos pratos e cappuccinos especiais que tornam o seu dia mais saboroso e produtivo em nossa cafeteria e espaço de coworking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="modal fade" id="search-modal" tabindex="1" aria-labelledby="search-modal-label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form id="search-form" class="form-inline">
+                            <input type="text" id="search-input" class="form-control" placeholder="Pesquisar...">
+                            <button type="submit" class="btn btn-primary">Pesquisar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="parallax">
+          <div class="parallax-overlay">
+            <div class="parallax-text">
+             <h2 id="cortituloparallax"> Nosso cardápio!</h2>
+               <p class="descricaoParallax">Descubra um cardápio diversificado que satisfaz diferentes gostos. Oferecemos opções nutritivas e deliciosas, desde lanches energizantes até refeições equilibradas. Desfrute de cafés artesanais, smoothies revitalizantes, sanduíches gourmet e saladas frescas. Alimente-se conosco e aproveite!</p>
+               <div class="container">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active text-center">  
+                      <img class="d-block mx-auto imgParallax2" src="img/cardapio/biscechoc.png" alt="First slide">  
+                    </div>
+                    <div class="carousel-item text-center">  
+                      <img class="d-block mx-auto imgParallax2" src="img/cardapio/browniemoccha.png" alt="Second slide">  
+                    </div>
+                    <div class="carousel-item text-center">  
+                      <img class="d-block mx-auto  imgParallax2" src="img/cardapio/cookielatte.png" alt="Third slide"> 
+                    </div>
+                    <div class="carousel-item text-center">  
+                      <img class="d-block mx-auto imgParallax2" src="img/cardapio/sanduiche.png" alt="Forth slide">  
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                  <a href="../Cardápio/index.html" class="btn btn2 btn-primary btn-lg">Conheça o nosso cardápio completo!   </a>
+
+                </div>
+              </div>
+        
+              </div>
+        
+              </div>
+        
+            </div>
+
+    </section>
+
+ <section id="delivery"  >
+     
+        <div id="cardEsquerdo" class="" style="">
+            <div class="card-body ">
+                <h1 class="card-title">Peça em sua casa</h1>
+                 <p class="card-text2">
+                    Desfrute da comodidade com nosso serviço de entrega em domicílio. Navegue pelo nosso cardápio diversificado, escolha seus pratos favoritos e relaxe enquanto preparamos uma refeição deliciosa e a entregamos à sua porta. De café da manhãs revigorantes a jantares reconfortantes, estamos aqui para satisfazer seu paladar a qualquer momento. Faça seu pedido agora e deixe-nos trazer a experiência culinária diretamente para a sua casa. É fácil, rápido e saboroso. Peça em sua casa e saboreie a conveniência.</p>
+                 <a href="https://wa.me/qr/7XBERFEHM6IFP1" class="btn-personalize btn d-flex align-items-center justify-content-center ">Peça pelo Whatsapp</a>
+                 <br>
+                 <a href="" class="btn-personalize2 btn d-flex align-items-center justify-content-center ">Peça pelo iFood</a>
+            </div>
+     
+     
+        </div>
+     
+        <div id="cardDireito" style="width: 50%;">
+     
+                <img src="img/delivery.png" style="width: 60%;">
+            </div>
+       
+     
+  </section>
+
+
+  <section id="localize">
+
+        <div class="textolocalize" class="card border-0" style="width:100%; height: 35rem;">
+       
+       
+        </div>
+       
+        <!--Localização no mapa do google-->
+         
+            <div class="card-body ">
+                <h1 class="titlelocalize">Venha nos Visitar</h1>
+            </div>
+       
+       
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15046.217940377623!2d-42.5304453!3d-19.474766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb0001c38811833%3A0xe7bf669b63f47f09!2sFaculdade%20Doctum!5e0!3m2!1spt-BR!2sbr!4v1700756473385!5m2!1spt-BR!2sbr" width="100%" height="420px" style="border: hidden;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+   </section>
+   
+    <div>
+        <section id="redes-sociais">
+            <h2 class="tituloRedes">Nos siga nas redes sociais</h2>
+            <ul class="lista-redes-sociais">
+                <li><a href="https://www.facebook.com/seu-facebook" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.twitter.com/seu-twitter" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="https://www.instagram.com/seu-instagram" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/seu-linkedin" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            </ul>
+        </section>
+    </div>
+    
+
+    
+    <footer>
+        <p>&copy; 2023 Antonio, Leonardo e Neuber. Todos os direitos reservados - Website desenvolvido para fins didáticos.</p>
+        <div>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Serviço</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Contato</a>
+        </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#search-toggle").click(function() {
+                $("#search-modal").modal("toggle");
+            });
+
+            $("#meuCarousel").carousel();
+        });
+
+        $(document).ready(function(){
+    $('#carouselExampleControls').carousel();
+  });
+    </script>
+</body>
+</html>

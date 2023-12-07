@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorKoffee</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .parallax {
+            background-image: url('img/parallax/1.png');
+            min-height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white rounded fixed-top">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo.png" height="150" alt="" width="150" class="img-fluid">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="about">Cardápio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="services">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="contact">Pedidos</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn btn-link search-toggle" id="search-toggle">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div id="meuCarousel" class="carousel slide" data-bs-ride="carousel" style="height: 50vh;">
+        <ol class="carousel-indicators d-none">
+            <li data-bs-target="#meuCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#meuCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#meuCarousel" data-bs-slide-to="2"></li>
+        </ol>
+    
+        <div class="carousel-inner carousel-container">
+            <div class="carousel-item active d-flex align-item-center">
+                <div class="carousel-text-container">
+                    <h1 class="carousel-title">Bem Vindo ao Workoffee</h1>
+                    <p class="carousel-subtitle">O seu espaço para café e trabalho!</p>
+                </div>
+                <img src="img/carrossel/1.png" class="d-block w-100 img-carousel" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-text-container">
+                    <h1 class="carousel-title">A Workoffee possui os melhores sabores!</h1>
+                    <p class="carousel-subtitle">E o melhor ambiente de trabalho!</p>
+                </div>
+                <img src="img/carrossel/2.png" class="d-block w-100 img-carousel" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-text-container">
+                    <h1 class="carousel-title">Venha nos fazer uma visita!</h1>
+                </div>
+                <img src="img/carrossel/3.png" class="d-block w-100 img-carousel" alt="Slide 3">
+            </div>
+        </div>
+    
+        <a class="carousel-control-prev" href="#meuCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#meuCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card h-100 card-sombra">
+                    <img src="img/cards/interior.png" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Inspiração e Produtividade</h5>
+                        <p class="card-text">
+                            Descubra o local onde a criatividade flui e as ideias ganham vida. Nosso espaço é projetado para inspirar e motivar, com uma atmosfera que equilibra perfeitamente o estilo industrial moderno e o conforto caseiro. Aproveite a luz natural abundante, as plantas que purificam o ar e uma comunidade de pensadores inovadores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 card-sombra">
+                    <img src="img/cards/fachada.png" class="card-img-top" alt="Palm Springs Road"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Seu Novo Endereço Profissional</h5>
+                        <p class="card-text">Bem-vindo ao epicentro da inovação e do empreendedorismo. Localizado no coração do Bairro Bela Vista, o nosso espaço oferece uma fachada convidativa e uma localização estratégica, ideal para conectar-se com clientes e colaboradores. Estabeleça sua presença no mercado com um endereço que diz sucesso.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 card-sombra">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 card-sombra">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top" alt="Skyscrapers"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="search-modal" tabindex="1" aria-labelledby="search-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form id="search-form" class="form-inline">
+                        <input type="text" id="search-input" class="form-control" placeholder="Pesquisar...">
+                        <button type="submit" class="btn btn-primary">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="parallax">
+
+      <div class="parallax-overlay">
+        <div class="parallax-text">
+         <h2> Nosso cardápio!</h2>
+           <p>Descubra sabores que despertam a criatividade e alimentam a inovação. Nosso cardápio é cuidadosamente elaborado para oferecer opções nutritivas e deliciosas que atendem a todos os gostos e preferências. Desde lanches rápidos que energizam até refeições equilibradas para manter você focado no trabalho, temos tudo o que você precisa para um dia produtivo. Venha saborear nossa seleção de cafés artesanais, smoothies revitalizantes, sanduíches gourmet e saladas frescas. Cada prato é preparado com ingredientes de alta qualidade, escolhidos pela sua frescura e sabor. Alimente seu corpo e sua mente aqui conosco!</p>
+
+           <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active text-center"> <!-- Adicione a classe "text-center" para centralizar a imagem -->
+                  <img class="d-block mx-auto w-50" src="img/cardapio/biscechoc.png" alt="First slide"> <!-- Adicione a classe "mx-auto" para centralizar horizontalmente -->
+                </div>
+                <div class="carousel-item text-center"> <!-- Adicione a classe "text-center" para centralizar a imagem -->
+                  <img class="d-block mx-auto w-50" src="img/cardapio/browniemoccha.png" alt="Second slide"> <!-- Adicione a classe "mx-auto" para centralizar horizontalmente -->
+                </div>
+                <div class="carousel-item text-center"> <!-- Adicione a classe "text-center" para centralizar a imagem -->
+                  <img class="d-block mx-auto w-50" src="img/cardapio/cookielatte.png" alt="Third slide"> <!-- Adicione a classe "mx-auto" para centralizar horizontalmente -->
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          
+          </div>
+            
+          </div>
+      
+        </div>
+      </div>
+   </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#search-toggle").click(function() {
+                $("#search-modal").modal("toggle");
+            });
+
+            $("#meuCarousel").carousel();
+        });
+
+        $(document).ready(function(){
+    $('#carouselExampleControls').carousel();
+  });
+    </script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+/* HEADER */
+
+header {
+    position: relative;
+    padding: 0.5rem 0.5rem;
+}
+
+.custom-navbar .links {
+    display: flex;
+    gap: 10rem;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed; 
+    top: 0;          
+    left: 0;         
+    width: 100%;     
+    padding: 1px;    
+    background-color:  rgb(255, 254, 233)
+}
+
+.nav-link {
+    margin-right: 50px;  
+    color: orange;
+}
+
+.nav-item {
+    color: orange;
+}
+
+
+
+.navbar-custom {
+    height: 100px;
+    width: 50%;
+    padding-left: 20%;
+}
+
+/* DROPDOWN MENU */
+
+.custom-dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.425);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.custom-dropdown-menu.open {
+    height: 240px;
+}
+
+.custom-dropdown-menu .action_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.getstarted {
+    margin-left: auto;
+}
+ 
+ 
+.btn {
+    background-color: orange;
+    border: 1px solid orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    -webkit-text-stroke-width: 0.01px; 
+    -webkit-text-stroke-color: #0000006e; 
+}
+
+.btn:hover {
+    background-color: rgba(255, 102, 0, 0.87);
+}
+
+
+
+ 
+.topImg { 
+
+
+    width: 120em;
+    
+    
+    
+}
+
+.cards-container { 
+
+
+    padding-top: 30px;
+}
+
+.card-group {
+    width: 50em;
+    text-align: center;
+    display: inline-flexbox;
+}
+
+
+.card-sombra {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 2);
+    padding: 0px;
+    background-color: white;
+}
+
+.card-text2 {
+    text-align: justify;
+    width: 30vw;
+    font-size: 20px;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    color: orange;
+}
+
+ 
+
+.cards-container {
+    padding-bottom: 30px;
+}
+
+
+.card-text { 
+
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+}
+
+
+body { 
+
+    background-image: url(../img/background.png);
+    backdrop-filter: blur(2px);
+}
+
+
+.topImg { 
+
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 2);
+
+
+}
+
+
+  /* barra de rodapé */
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    
+}
+
+/*  rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+
+.btnpedido { 
+
+
+    text-align: center;
+}

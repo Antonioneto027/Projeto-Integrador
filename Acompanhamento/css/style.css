@@ -1,0 +1,249 @@
+
+
+/* Estilo para dispositivos móveis */
+@media screen and (max-width: 768px) {
+ 
+    
+    #cardEsquerdo, #cardEsquerdo1 {
+      display: flex;
+      flex-direction: column;  
+      width: 80vw;  
+      margin: 0 auto;  
+    }
+  
+    #cardDireito {
+      display: flex;
+      flex-direction: column;  
+      width: 80vw; 
+      margin: 0 auto;  
+    }
+  
+    .card-text2 {
+      text-align: justify;
+      font-size: 16px;  
+    }
+  
+    .card-title {
+      text-align: center;
+      font-weight: bold;
+      color: orange;
+    }
+  
+    .btn-personalize {
+      background-color: rgb(0, 194, 0);
+      text-align: center;
+      color: #fff;
+    }
+
+    .btn-personalize2 {
+        background-color: rgb(228, 83, 26);
+        text-align: center;
+        color: #fff;
+      }
+
+      .btn-personalize2:hover {
+        background-color: rgb(252, 119, 11);
+        text-align: center;
+        color: #fff;
+      }
+  
+    .btn-personalize:hover {
+      background-color: rgb(11, 252, 11);
+      text-align: center;
+      color: #fff;
+    }
+
+    .logotipo {
+
+        max-width: 50%;
+
+     }
+
+     body {
+        height: 100vh;
+        background-color: rgb(255, 254, 233);
+        background-size: cover;  
+        
+    }
+
+    .logotipo {
+
+        max-width: 50%;
+
+     }
+  }
+
+/* Estilo para tablets */
+@media screen and (min-width: 769px) and     (max-width: 1024px) {
+    #cardEsquerdo, #cardEsquerdo1 { 
+        position: relative;
+        display: inline-flex;
+        top: 6em;
+        left: 20%;
+        float: left;
+        width: 25%;
+        height: 35rem;
+        height: 100%;
+    }
+    
+    #cardDireito { 
+        position: relative;
+        display: inline-flex;
+        float: left;
+        margin-left: 25%;
+    }
+    
+    @media (min-width: 100px) and (max-width: 1280px) {
+        #cardDireito { 
+            position: relative;
+            display: inline-flex;
+            float: left;
+            margin-left: 25%;
+            left: 25%;
+            bottom: 250px;
+            padding-bottom: 30px;
+        }
+    }
+    
+    .card-text2 { 
+        text-align: justify;
+        width: 30vw;
+        font-size: 30px;
+    }
+    
+    .card-title { 
+        text-align: center;
+        font-weight: bold;
+        color: orange;
+        font-size: 35px;
+    }
+    
+    .btn-personalize {
+        background-color: rgb(0, 194, 0);
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .btn-personalize2 {
+        background-color: rgb(0, 194, 0);
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+    }
+    
+    .btn-personalize:hover {
+        background-color: rgba(7, 201, 7, 0.699);
+        text-align: center;
+        color: #fff;
+    }
+
+    body {
+        height: 100vh;
+        background-color: rgb(255, 254, 233);
+        background-size: cover;  
+        
+    }
+
+    .logotipo {
+
+        max-width: 50%;
+
+     }
+
+     .btn-personalize2 {
+        background-color: rgb(228, 83, 26);
+        text-align: center;
+        color: #fff;
+      }
+
+      .btn-personalize2:hover {
+        background-color: rgb(252, 119, 11);
+        text-align: center;
+        color: #fff;
+      }
+    
+}
+
+/* Estilo para desktops */
+@media screen and (min-width: 1280px) {
+    #cardEsquerdo, #cardEsquerdo1 { 
+        position: relative;
+        display: inline-flex;
+        top: 20em;
+        left: 20%;
+        float: left;
+        width: 25%;
+        height: 35rem;
+    }
+    
+    #cardDireito { 
+        position: relative;
+        display: inline-flex;
+        float: left;
+        margin-left: 25%;
+    }
+    
+    @media (min-width: 100px) and (max-width: 1280px) {
+        #cardDireito { 
+            position: relative;
+            display: inline-flex;
+            float: left;
+            margin-left: 25%;
+            left: 25%;
+            bottom: 250px;
+        }
+    }
+    
+    .card-text2 { 
+        text-align: justify;
+        width: 30vw;
+        font-size: 20px;
+    }
+    
+    .card-title { 
+        text-align: center;
+        font-weight: bold;
+        color: orange;
+    }
+    
+    .btn-personalize {
+        background-color: rgb(0, 194, 0);
+        text-align: center;
+        color: #fff;
+    }
+    
+    .btn-personalize:hover {
+        background-color: rgba(7, 201, 7, 0.699);
+        text-align: center;
+        color: #fff;
+    }
+
+    body {
+        height: 100vh;
+        background-color: rgb(255, 254, 233);
+        background-size: cover;  
+        
+    }
+
+    .logotipo {
+
+        max-width: 50%;
+
+     }
+
+
+     .btn-personalize2 {
+        background-color: rgb(228, 83, 26);
+        text-align: center;
+        color: #fff;
+      }
+
+      .btn-personalize2:hover {
+        background-color: rgb(252, 119, 11);
+        text-align: center;
+        color: #fff;
+      }
+    
+    
+}
