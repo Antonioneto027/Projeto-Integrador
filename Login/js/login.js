@@ -9,7 +9,7 @@ document.querySelector('.login100-form').addEventListener('submit', function(eve
     }
 
     if (validateCredentials(email, password)) {
-        window.location.href = '../../CafeteriaProjeto5.0/Cardápio/index.html'; 
+        window.location.href = '../Cardápio/index.html'; 
     } else {
         alert('Email ou senha incorretos. Por favor, tente novamente.');
     }
